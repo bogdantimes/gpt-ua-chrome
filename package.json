@@ -1,0 +1,16 @@
+{
+  "name": "gpt-ua-chrome",
+  "version": "1.2.0",
+  "description": "A Chrome extension for rendering GPT-UA in a popup.",
+  "main": "popup/scripts.js",
+  "scripts": {
+    "build": "parcel build C:/Users/bogda/WebstormProjects/gptua/src/web/index.tsx --no-source-maps --dist-dir ./popup --public-url ./",
+    "package": "npm run build && node zip-dir.js"
+  },
+  "author": "Bohdan Kovalov",
+  "license": "MIT",
+  "devDependencies": {
+    "archiver": "5.3.1",
+    "parcel": "2.8.3"
+  }
+}
