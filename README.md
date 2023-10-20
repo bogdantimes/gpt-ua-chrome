@@ -1,6 +1,7 @@
 # GPT-UA Chrome Extension
 
 This is a simple Chrome extension that renders the index.html from the `gpt-ua` project in a popup. It does not require any permissions.
+Chrome Web Store: https://chromewebstore.google.com/detail/fbbjiglnminppnhbddnihgeoipoamhnm
 
 ## Installation
 
