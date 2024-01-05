@@ -1,8 +1,8 @@
 {
   "appName": {
-    "message": "GPT-UA / Clarity AI - Chrome"
+    "message": "GPT-UA: GPT-4 Vision, DALLE-3, Поиск"
   },
   "appDesc": {
-    "message": "Бесплатный анонимный сервис на основе ChatGPT с возможностью онлайн-поиска информации."
+    "message": "Бесплатный анонимный сервис на базе ChatGPT с возможностью использования DALLE-3 и поиска информации в интернете."
   }
 }

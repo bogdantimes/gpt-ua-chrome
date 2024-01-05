@@ -1,6 +1,6 @@
 {
   "name": "gpt-ua-chrome",
-  "version": "1.7.2",
+  "version": "1.8.0",
   "description": "A Chrome extension for rendering GPT-UA in a popup.",
   "main": "popup/scripts.js",
   "scripts": {
