@@ -1,8 +1,8 @@
 {
   "appName": {
-    "message": "GPT-UA: GPT-4 Vision, DALLE-3, Browsing, Mistral"
+    "message": "GPT-UA: GPT-4, DALLE-3, Browsing, Mixtral-7B"
   },
   "appDesc": {
-    "message": "Kostenloser, anonymer ChatGPT-basierter Dienst mit GPT4, DALLE-3, Mistral und Online-Informationsrecherchefähigkeit."
+    "message": "Kostenloser, anonymer ChatGPT-basierter Dienst mit GPT4, DALLE-3, Mixtral-8X7B und Online-Informationsrecherchefähigkeit."
   }
 }
