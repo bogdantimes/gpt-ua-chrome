@@ -1,6 +1,6 @@
 {
   "appName": {
-    "message": "GPT-UA: GPT-4, DALLE-3, Пошук, Mixtral-7B"
+    "message": "GPT-UA: GPT-4, DALLE-3, Пошук, Mistral-7B"
   },
   "appDesc": {
     "message": "Безкоштовний анонімний сервіс на базі ChatGPT з можливістю використання GPT4, DALLE-3, Mixtral-8X7B та пошуку інформації онлайн."
