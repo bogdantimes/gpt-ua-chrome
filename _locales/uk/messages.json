@@ -3,6 +3,6 @@
     "message": "GPT-UA: Claude 3, GPT-4, DALLE, Browsing, Mistral"
   },
   "appDesc": {
-    "message": "Безкоштовний, анонімний сервіс на основі ChatGPT із функціями Claude 3, GPT4, DALLE-3, Mixtral-8X7B та можливостями онлайн-дослідження інформації."
+    "message": "Безкоштовний, анонімний сервіс на основі ChatGPT із функціями Claude 3, GPT-4o, DALLE-3, Mixtral-8X22B та можливостями онлайн-дослідження інформації."
   }
 }
