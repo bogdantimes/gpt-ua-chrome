@@ -33,4 +33,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: gpt-ua-chrome
-          path: popup/gpt-ua-chrome.zip  # Assuming the package script creates a zip file in the popup directory
+          path: gpt-ua-chrome.zip  # Assuming the package script creates a zip file in the popup directory
