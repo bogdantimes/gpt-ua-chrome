@@ -12,7 +12,8 @@ output.on('close', function() {
 });
 
 archive.on('error', function(err) {
-  throw err;
+  console.error(err);
+  system.exit(1);
 });
 
 archive.pipe(output);
