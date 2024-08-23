@@ -1,0 +1,40 @@
+name: Build and Package gpt-ua-chrome
+
+on:
+  push:
+    branches: [ main ]
+  worflow_dispatch:
+
+jobs:
+  build-and-package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          submodules: true  # If you're using submodules in your repository
+
+      - name: Checkout gpt-ua repository
+        uses: actions/checkout@v3
+        with:
+          repository: 'bogdantimes/gpt-ua'  # Replace 'your-username' with your actual GitHub username
+          path: 'gpt-ua'
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install dependencies
+        run: |
+        npm install
+        cd gpt-ua
+        npm install
+        cd ..
+
+      - name: Package gpt-ua-chrome
+        run: |
+        npm run package
+        ls popup
+
+      - name: Upload package
+        uses: actions/upload-artifact@v3
+        with:
+          name: gpt-ua-chrome
+          path: popup/gpt-ua-chrome.zip  # Assuming the package script creates a zip file in the popup directory
