@@ -9,12 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
-        with:
-          submodules: true  # If you're using submodules in your repository
+        uses: actions/checkout@v4
 
       - name: Checkout gpt-ua repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: 'bogdantimes/gpt-ua'  # Replace 'your-username' with your actual GitHub username
           path: '../gpt-ua'
@@ -33,7 +31,7 @@ jobs:
          ls popup
 
       - name: Upload package
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: gpt-ua-chrome
           path: popup/gpt-ua-chrome.zip  # Assuming the package script creates a zip file in the popup directory
