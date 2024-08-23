@@ -1,8 +1,8 @@
 {
   "appName": {
-    "message": "GPT-UA: Claude-3.5, GPT-4o, Mixtral, LLAMA-3"
+    "message": "GPT-UA: Claude-3.5, FLUX.1, LLAMA-3.1, Mixtral"
   },
   "appDesc": {
-    "message": "Free, anonymous ChatGPT-based service with Claude-3.5, GPT-4o, DALLE-3, Mixtral-8X22B, LLAMA-3-70B and more."
+    "message": "Free, anonymous ChatGPT-based service with Claude-3.5, FLUX.1, Mixtral-8X22B, LLAMA-3.1-70B and more."
   }
 }
