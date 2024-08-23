@@ -3,7 +3,6 @@ name: Build and Package gpt-ua-chrome
 on:
   push:
     branches: [ main ]
-  worflow_dispatch:
 
 jobs:
   build-and-package:
@@ -23,15 +22,15 @@ jobs:
 
       - name: Install dependencies
         run: |
-        npm install
-        cd gpt-ua
-        npm install
-        cd ..
+         npm install
+         cd gpt-ua
+         npm install
+         cd ..
 
       - name: Package gpt-ua-chrome
         run: |
-        npm run package
-        ls popup
+         npm run package
+         ls popup
 
       - name: Upload package
         uses: actions/upload-artifact@v3
