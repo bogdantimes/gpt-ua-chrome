@@ -4,7 +4,7 @@
   "description": "A Chrome extension for rendering GPT-UA in a popup.",
   "main": "popup/scripts.js",
   "scripts": {
-    "build": "parcel build ../gpt-ua/src/web/index.tsx --no-source-maps --dist-dir ./popup --public-url ./",
+    "build": "parcel build ./gpt-ua/src/web/index.tsx --no-source-maps --dist-dir ./popup --public-url ./",
     "package": "npm run build && node zip-dir.js"
   },
   "author": "Bohdan Kovalov",
