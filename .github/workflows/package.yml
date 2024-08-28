@@ -16,7 +16,7 @@ jobs:
         with:
           repository: 'bogdantimes/gpt-ua'  # Replace 'your-username' with your actual GitHub username
           path: './gpt-ua'
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_PAT }}
           ref: main
 
       - name: Install dependencies
