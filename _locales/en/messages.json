@@ -3,6 +3,6 @@
     "message": "GPT-UA: Claude-3.5, FLUX.1, LLAMA-3.1, Mixtral"
   },
   "appDesc": {
-    "message": "Free, anonymous ChatGPT-based service with Claude-3.5, FLUX.1, Mixtral-8X22B, LLAMA-3.1-70B and more."
+    "message": "Free, anonymous ChatGPT-based service with Claude-3.5, FLUX.1, Mixtral Large 2, LLAMA-3.1-70B models and other features."
   }
 }
