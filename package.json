@@ -4,15 +4,18 @@
   "description": "A Chrome extension for rendering GPT-UA in a popup.",
   "main": "popup/scripts.js",
   "scripts": {
-    "build": "parcel build ./gpt-ua/src/web/index.tsx --no-source-maps --dist-dir ./popup --public-url ./",
+    "build": "vite build",
     "package": "npm run build && node zip-dir.js"
   },
   "author": "Bohdan Kovalov",
   "license": "MIT",
   "devDependencies": {
+    "@vitejs/plugin-react": "4.3.3",
     "archiver": "5.3.1",
-    "parcel": "2.10.3",
-    "process": "latest"
+    "process": "latest",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "vite": "5.4.10"
   },
   "dependencies": {
     "gpt-ua-chrome": "file:"

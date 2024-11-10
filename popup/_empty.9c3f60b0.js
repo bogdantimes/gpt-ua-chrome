@@ -1,1 +1,0 @@
-(0,globalThis.parcelRequirea9ad.register)("2FGDs",function(e,a){});
