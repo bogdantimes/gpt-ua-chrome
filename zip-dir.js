@@ -18,6 +18,7 @@ archive.on('error', function(err) {
 
 archive.pipe(output);
 archive.file('./manifest.json', { name: 'manifest.json' });
+archive.file('./background.js', { name: './background.js' });
 archive.directory('./_locales', '_locales');
 archive.directory('./icons', 'icons');
 archive.directory('./popup/', 'popup');
